@@ -1,0 +1,6 @@
+{
+	"logFolderName" : "log",
+	"imageFileName" : "img.log",
+	"backupFolderName" : "bak",
+	"port" : 800
+}
