@@ -19,12 +19,13 @@ var USERS = {}; //學員列表
 
 var user = function () //學員屬性定義
 {
-	this.courseId = 1;
-	this.userId = 2;
-	this.section = 3;
-	this.status = "test";
+	this.courseId = 0;
+	this.userId = 0;
+	this.section = 0;
+	this.status = "";
 	this.t_login = 0;
 	this.t_update = 0;
+	this.socket = null;
 }
 
 //==========>初始化
